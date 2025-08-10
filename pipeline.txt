@@ -1,0 +1,8 @@
+# Processing Time Estimates for Voice Pipeline
+
+| Step           | Time Estimate                                         |
+| -------------- | ----------------------------------------------------- |
+| Chat model     | ~30 seconds (depends on model)                        |
+| TensorFlow TTS | ~1 second (real-time or near real-time)               |
+| StyleTTS2      | ~1 second (relatively fast)                           |
+| RVC            | ~1 second (real-time or near real-time)               |
